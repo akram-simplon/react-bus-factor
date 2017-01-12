@@ -7,6 +7,9 @@
 * @render app
 */
 
+require("materialize-loader");
+require("materialize-loader!.../materialize.config.js");
+
 // @import vendor js
 import {render} from 'react-dom';
 

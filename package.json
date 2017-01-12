@@ -30,6 +30,7 @@
     "webpack": "^1.14.0"
   },
   "devDependencies": {
-    "http-server": "^0.9.0"
+    "http-server": "^0.9.0",
+    "materialize-loader": "^1.1.1"
   }
 }

@@ -1,6 +1,5 @@
 var webpack = require('webpack');
 var path = require('path');
-
 var SRC_DIR = path.resolve(__dirname, 'client/src');
 var BUILD_DIR = path.resolve(__dirname, 'client/build');
 
@@ -15,7 +14,8 @@ module.exports = {
       'react-dom',
       'materialize-css/dist/js/materialize.js'
     ]
-  },
+  
+    },
   output: {
     path: BUILD_DIR,
     publicPath: 'http://127.0.0.1:8080',
@@ -73,3 +73,4 @@ module.exports = {
     ]
   }
 };
+
